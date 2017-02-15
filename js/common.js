@@ -176,5 +176,7 @@ $(document).ready(function() {
   	$(window).on('load', function () {
 	    var $preloader = $('#page-preloader');
 	    $preloader.delay(350).fadeOut('slow');
+	    $("header.animated-delay").addClass("zoomInDown");
+	    $("header.animated-delay").addClass("zoomIn");
 	});
 });
