@@ -441,8 +441,8 @@ footer #politics:hover{
 }
 
 .animated-delay{
-	-webkit-animation-delay: 1.4s;
-	-o-animation-delay: 1.4s;
-	-moz-animation-delay: 1.4s;
-	animation-delay: 1.4s;
+	-webkit-animation-delay: 1.0s;
+	-o-animation-delay: 1.0s;
+	-moz-animation-delay: 1.0s;
+	animation-delay: 1.0s;
 }
