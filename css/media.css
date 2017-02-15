@@ -1,0 +1,245 @@
+/*========== Large Devices, Wide Screens ==========*/
+@media only screen and (max-width : 1200px) {
+
+	#characteristics ul {
+    	padding-top: 0px;
+	}
+
+	#reviews{
+		min-height: 340px !important;
+		height: auto;
+		max-height: 740px;
+	}
+
+}
+
+/*========== Medium Devices, Desktops ==========*/
+@media only screen and (max-width : 991px) {
+
+	#video video{
+		max-height: 200px;
+	}
+	.videoContainer{
+		text-align: center;
+	}
+	#video{
+		min-height: 710px
+	}
+	#video .text{
+		margin-top: 70px;
+	}
+	#characteristics ul {
+    	text-align: center;
+    	padding-left: 0;
+	}
+	#characteristics .list{
+		z-index: 2;
+	}
+	#characteristics ul li{
+    	list-style-type: none;
+    	color: #fcd49d;
+	}
+	#characteristics h2{
+		padding-top: 30px;
+		text-align: center;
+	}
+	#characteristics .content{
+		position: relative;
+	}
+	#characteristics .img{
+		position: absolute;
+		top: -18px;
+		margin-left: 20%;
+		margin-right: 20%;
+		z-index: 1;
+		-webkit-filter: blur(2px) grayscale(100%);
+     	-moz-filter: blur(2px) grayscale(100%);
+       	-o-filter: blur(2px) grayscale(100%);
+      	-ms-filter: blur(2px) grayscale(100%);
+        filter: blur(2px) grayscale(100%);
+	}
+}
+/*========== Small Devices, Tablets ==========*/
+@media only screen and (max-width : 767px) {
+
+	#top{
+		display: none !important;
+	}
+	header{
+		height: 130px;
+	}
+	.header_text h2{
+		margin:0;
+	}
+	.form{
+		margin-top: 7vh;
+	}
+	.head-form{
+		margin-top: 0;
+		padding: 0;
+	}
+
+	.title-garant{
+	margin-top: -10px;
+	}
+
+	#content-garant li{
+	line-height: 25px;
+	margin-bottom: 5px;
+	}
+
+	.title-garant h2{
+		margin-bottom: 0;
+	}
+
+	#garant {
+		min-height: 340px !important;
+		height: auto;
+
+	}
+
+	hr{
+		width: 250px;
+
+	}
+
+	
+
+
+	@media  screen and (max-height: 500px) {
+
+		.form{
+			margin-top: 20px !important;
+		}
+	}
+}
+
+/*========== Extra Small Devices, Phones ==========*/
+@media only screen and (max-width : 480px) {
+
+	header{
+		height: 120px;
+	}
+	#characteristics .img{
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.title-garant{
+	margin-top: -10px;
+	}
+
+	#content-garant li{
+	line-height: 25px;
+	margin-bottom: 5px;
+	}
+
+	.title-garant h2{
+		margin-bottom: 0;
+	}
+
+	#garant {
+		max-height: 800px !important;
+		height: auto;
+
+	}
+
+	#delivery{
+		min-height: 350px;
+		height: auto !important;
+	}
+
+	#reviews{
+		max-height: 850px;
+	}
+
+	@media  screen and (max-width: 449px) {
+
+		#video video{
+			max-height: 190px;
+			min-height: 0;
+			height: 40vh;
+		}
+		
+ 	}
+	@media only screen and (max-width : 355px) {
+
+		#video video{
+			min-height: 0;
+			height: 30vh;
+		}
+
+	}
+	@media only screen and (max-width : 377px) {
+
+		#characteristics h2{
+			letter-spacing: 5px;
+		}
+
+	}
+	@media only screen and (max-width : 382px) {
+
+		#characteristics h2{
+			padding-top: 0;
+		}
+
+	}
+}
+/*========== Custom, iPhone Retina ==========*/
+@media only screen and (max-width : 320px) {
+
+}
+
+
+
+
+
+@media  screen and (max-height: 500px) {
+
+	.form{
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+
+}
+@media  screen and (max-height: 530px) {
+
+	#characteristics li{
+		line-height: 35px;
+	}
+
+}
+@media  screen and (max-height: 579px) {
+
+	#characteristics img{
+		min-height: 345.6px;
+		height: 72vh;
+	}
+
+}
+
+@media only screen and (min-width : 768px) and (max-width: 1199px){
+
+	.title-garant{
+	margin-top: -10px;
+	}
+
+	#content-garant li{
+	line-height: 25px;
+	margin-bottom: 30px;
+	}
+
+	.title-garant h2{
+		margin-bottom: 0;
+	}
+
+}
+
+@media only screen and (min-width : 1200px) and (max-width: 1600px){
+	#reviews {
+		height: auto;
+	}
+}
+
+

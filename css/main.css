@@ -1,0 +1,448 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+html { overflow-x: hidden; }
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+#top{
+	background-image: url("../img/up.png");
+	background-size: cover;
+	width: 61px;
+	height: 51px;
+	right: 30px;
+	bottom: 30px;
+	position: fixed;
+	cursor: pointer;
+	z-index: 25;
+	display: none;
+}
+.block{
+	min-height: 480px;
+	max-height: 709px;
+	height: 100vh;
+}
+/*---------------------HEADER--------------------------*/
+header{
+	background-color:#000;
+	box-shadow: 0px 1px 5px red;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+	opacity: 0.7 !important;
+}
+.logo{
+	margin-top: 2.5%;
+	text-align: center;
+}
+.header_text h2{
+	color:orange;
+	text-align: center;
+	font-family: "ForumRegular";
+}
+/*---------------------END HEADER----------------------*/
+
+/*---------------------FIRST BLOCK---------------------*/
+
+.first_block{
+	padding-top: 120px;
+	background-image:url(../img/bg1.png);
+}
+.clock{
+	min-height: 345px;
+	max-height: 510.5px;
+	height: 72vh;
+	background:url(../img/clock1.png) no-repeat;
+	background-size: contain;
+	background-position: center;
+	display: block;
+	position: relative;
+}
+
+/*---------------------ANIMATION ARROW-------------------*/
+
+.arrow {
+	position: absolute;
+}
+.arrow img {
+	max-width: 252px;
+    z-index: 2;
+    -webkit-animation-name: arrow;
+    -webkit-animation-duration: 50000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: arrow;
+    -moz-animation-duration: 50000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: arrow;
+    -ms-animation-duration: 50000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+ 
+    animation-name: arrow;
+    animation-duration: 50000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes arrow {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes arrow {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes arrow {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes arrow {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.arrow:hover img{
+	animation-play-state: paused;
+}
+/*--------------------END ANIMATION ARROW-------------------*/
+
+/*--------------------ORDER FORM---------------------------*/
+.form{
+	border:1px solid red;
+	margin-top: 8vh;
+	padding-bottom: 2vh;
+	background: radial-gradient(transparent, #303030);
+	box-shadow: 1px 1px 10px black;
+	text-shadow: 1px 1px 5px black;
+}
+.cena h1,p{
+	margin: 0;
+	text-align: center;
+}
+.cena h1 i{
+	font-size: 30px;
+}
+.cena p i{
+	font-size: 17px;
+}
+.ol-forma{
+	display:inline-block;
+	padding:0;
+}
+.ol-forma li{
+	padding-left:10px;
+	text-align: left;
+}
+.head-form{
+	font-family: "ForumRegular";
+	font-size: 20px;
+	margin-top:2vh;
+	margin-bottom: 20px;
+	padding: 10px 15px;
+	color: #ffa500;
+}
+.form-control{
+	color: #0c131b;
+	border: 1px solid orange;
+}
+.form-group{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.button-form{
+	background-color:#0c131b;
+	border: 1px #fff solid;
+	margin-top: 10px;
+	height: 50px;
+}
+.button-form:hover{
+	border: 3px #fff solid;
+}
+/*--------------------END ORDER FORM-----------------------*/
+
+/*---------------------END FIRST BLOCK---------------------*/
+
+/*--------------------VIDEO BLOCK---------------------------*/
+#video{
+	background: url("../img/bg-video.png");
+	padding-bottom: 70px;
+	padding-top: 50px;
+}
+#video h2{
+	font-size: 27px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+#video video{
+	min-height: 240px;
+	max-height: 354.5px;
+	margin-top: 5vh;
+	height: 40vh;
+}
+#video .text{
+	margin-top: 100px;
+	font-size: 22px;
+}
+#video .text cite{
+	position: absolute;
+	padding-right: 20px;
+	right: 0;
+	font-weight: bold;
+}
+.videoContainer:hover{
+	cursor: pointer;
+}
+/*--------------------END VIDEO BLOCK----------------------*/
+
+/*-----------------CHARACTERISTICS BLOCK-------------------*/
+#characteristics{
+	background: url("../img/bg-characteristics.png");
+	padding-bottom: 70px;
+}
+#characteristics li{
+	color: #d29959;
+	font-size: 22px;
+	line-height: 45px;
+}
+#characteristics h2{
+	font-size: 27px;
+	color: #fcd49d;
+	letter-spacing: 11px;
+	font-weight: normal;
+	padding-top: 50px;
+}
+#characteristics ul{
+	padding-top: 50px;
+}
+#characteristics li .text{
+	color: #fff;
+}
+#characteristics img{
+	width: 100%;
+}
+#characteristics .container{
+	padding-top: 5vh;
+}
+/*-----------------END CHARACTERISTICS BLOCK-----------------*/
+
+.title-garant{
+	text-align:  center;
+	margin-top: 30px;
+}
+
+.title-garant h2{
+	font-size: 27px;
+	color: #fcd49d;
+	 text-shadow: 1px 1px 2px black;
+	font-weight: normal;
+}
+#garant{
+	background-image: url("../img/bg-video.png");
+}
+
+#content-garant li{
+	line-height: 45px;
+	font-size: 22px;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+#content-garant li img{
+	position: absolute;
+	left:-80px;
+	top:0;
+	height: 55px;
+	width: 45px;
+
+}
+
+/*----------------------------Блок гарантии------------------*/
+
+#delivery{
+	background-image: url("../img/bg1.png");
+}
+
+.title-delivery h2{
+	text-align: center;
+	color: white;
+}
+
+hr{
+    border-top: 2px dashed grey;
+    margin-bottom: 0;
+}
+
+.clock2 img{
+	
+	width: 100%;
+	max-height: 400px;
+}
+
+.cena hr{
+	margin-bottom: 20px;
+}
+
+#delivery .row{
+	padding-top: 7vh;
+}
+
+/*------------------------------Блок доставки-----------------*/
+
+#reviews{
+	background-image: url("../img/bg-video.png");
+}
+
+.title-reviews h2{
+	
+	text-align: center;
+	text-shadow: 1px 1px 2px black;
+	border-bottom: 1px solid black;
+}
+
+.reviews-li img{
+	width: 100%;
+}
+
+#reviews ul{
+	padding-left: 0;
+}
+
+#reviews li{
+	list-style-type: none;
+	
+}
+
+
+.reviews-li{
+	background-color: white;
+	box-shadow: 1px 1px 2px black;
+	margin-bottom: 10px;
+}
+
+.reviews-p{
+	padding:5px;
+}
+
+.reviews-p p{
+	text-align: left;
+}
+
+.reviews-p span{
+	color:red;
+}
+
+.title-reviews h2{
+	margin-bottom: 0;
+}
+
+/*------------------------------Блок отзывов-----------------*/
+
+.footer{
+	text-align: center;
+
+}
+footer{
+	background-image: url("../img/bg1.png");
+	padding:30px 0px; 
+}
+
+.footer span{
+	color:#bbb;
+}
+footer a{
+	color:#bbb;
+	text-decoration: none;
+	
+}
+
+footer a:visited{
+	color:#bbb;
+}
+
+footer a:active{
+	color:#bbb;
+}
+
+#created{
+	margin-top: 10px;
+}
+
+#created a:hover{
+	font-size: 20px;
+	border-bottom: 1px dashed orange;
+	color:orange;
+}
+#created a{
+	transition-duration: .5s;
+}
+
+#info{
+	display: none;
+}
+
+#info h2{
+	text-align: center;
+}
+#info p{
+	text-align: justify;
+}
+footer #politics{
+    transition-duration: .5s;
+}
+footer #politics:hover{
+	border-bottom: 1px dashed orange;
+	color: orange;
+	font-size: 20px;
+}
+#dev{
+	display: none;
+}
+#dev a{
+	transition-duration: .5s;
+	font-size: 20px;
+}
+#dev li{
+	list-style-type: none;
+}
+#dev ul{
+	padding: 0;
+	text-align: center;
+}
+#dev a:hover{
+	border-bottom: 1px dashed orange;
+	color: orange;
+}
+
+#orderdiv{
+	display: none;
+	text-align: center;
+}
+
+#orderdiv h3{
+	color: red;
+}
+
+.animated-delay{
+	-webkit-animation-delay: 1.4s;
+	-o-animation-delay: 1.4s;
+	-moz-animation-delay: 1.4s;
+	animation-delay: 1.4s;
+}
