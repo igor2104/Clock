@@ -439,10 +439,3 @@ footer #politics:hover{
 #orderdiv h3{
 	color: red;
 }
-
-.animated-delay{
-	-webkit-animation-delay: 1.0s;
-	-o-animation-delay: 1.0s;
-	-moz-animation-delay: 1.0s;
-	animation-delay: 1.0s;
-}
